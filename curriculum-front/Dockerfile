@@ -3,7 +3,6 @@ WORKDIR /usr/src/app
 COPY curriculum-front/package*.json ./
 RUN ls -l
 RUN npm install
-RUN npm audit fix --force
 COPY curriculum-front ./
 RUN ls -l
 RUN npm run build
