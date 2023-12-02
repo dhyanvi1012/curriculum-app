@@ -21,7 +21,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: dhyanvi1012/curriculum-back
+        repository: 10121999/curriculum-back
         dockerfile: curriculum-back/Dockerfile
         tags: latest
 
@@ -37,6 +37,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        repository: dhyanvi1012/curriculum-front
+        repository: 10121999/curriculum-front
         dockerfile: curriculum-front/Dockerfile
         tags: latest
